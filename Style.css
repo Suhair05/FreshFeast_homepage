@@ -55,7 +55,6 @@ nav {
 .logo-icon {
   width: 36px; height: 36px;
   background: linear-gradient(135deg, #F97316 30%,  #fb923c 70%);
-  /*background: var(--orange);*/
   border-radius: 20px;
   display: flex; align-items: center; justify-content: center;
   color: white; font-weight: 800; font-size: 16px;
@@ -165,7 +164,6 @@ nav {
 
 .btn-primary {
   background: linear-gradient(135deg, #F97316 40%,  #fb923c 60%);
-  /*background: var(--orange);*/
   color: white;
   padding: 13px 26px;
   border-radius: 8px;
