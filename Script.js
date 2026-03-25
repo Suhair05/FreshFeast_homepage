@@ -3,11 +3,7 @@
    script.js
    ============================================= */
 
-/* ----- Cart Counter ----- 
-   Think of this like a scoreboard: every time 
-   someone clicks "Add to Cart", the score goes up.
-   The badge on the cart icon always shows the current score.
------ */
+/* ----- Cart Counter ----- */
 
 let cartCount = 0; // starting count shown on the badge
 
@@ -39,11 +35,7 @@ document.querySelectorAll('.btn-add').forEach(function(button) {
 });
 
 
-/* ----- "How It Works" smooth scroll ----- 
-   When the user clicks "How It Works" in the hero,
-   the page smoothly scrolls down to that section —
-   like an elevator instead of a jump.
------ */
+/* ----- "How It Works" smooth scroll ----- */
 
 const howItWorksBtn = document.getElementById('how-it-works-btn');
 const howItWorksSection = document.getElementById('how-it-works');
@@ -55,9 +47,7 @@ if (howItWorksBtn && howItWorksSection) {
 }
 
 
-/* ----- "View Full Menu" button ----- 
-   Navigates to the menu page when clicked.
------ */
+/* ----- "View Full Menu" button ----- */
 
 const viewMenuBtn = document.getElementById('view-menu-btn');
 
@@ -79,10 +69,7 @@ if (exploreMenuBtn) {
 }
 
 
-/* ----- Active nav link highlight ----- 
-   Automatically marks the current page's nav link 
-   as active, so you don't have to hardcode it per page.
------ */
+/* ----- Active nav link highlight -----*/
 
 const currentPage = window.location.pathname.split('/').pop() || 'index.html';
 
