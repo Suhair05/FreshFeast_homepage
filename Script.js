@@ -1,5 +1,5 @@
 /* =============================================
-   Fresh Feast — Homepage Scripts
+   FreshFeast — Homepage Scripts
    script.js
    ============================================= */
 
