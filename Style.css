@@ -1,11 +1,6 @@
-/* =============================================
-   FreshFeast — Homepage Styles
-   style.css
-   ============================================= */
-
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-/* ===== CSS VARIABLES (Team Colour Palette) ===== */
+/* CSS VARIABLES (Team Colour Palette) */
 :root {
   --orange:     #F97316;
   --orange-light: #fb923c;
@@ -23,7 +18,7 @@
   --secondary:  #ECF5EE;
 }
 
-/* ===== BASE ===== */
+/* BASE */
 body {
   font-family: 'DM Sans', sans-serif;
   background: var(--bg);
@@ -31,7 +26,7 @@ body {
   line-height: 1.6;
 }
 
-/* ===== NAVBAR ===== */
+/* NAVBAR */
 nav {
   background: var(--white);
   padding: 0 5%;
@@ -109,7 +104,7 @@ nav {
   align-items: center; justify-content: center;
 }
 
-/* ===== HERO ===== */
+/* HERO */
 .hero {
   display: flex;
   align-items: center;
@@ -198,7 +193,7 @@ nav {
   font-size: 13px; color: var(--muted);
 }
 
-/* ===== MOBILE RESPONSIVENESS ===== */
+/* MOBILE RESPONSIVENESS */
 @media (max-width: 1024px) {
   nav {
     padding: 0 3%;
@@ -386,7 +381,7 @@ nav {
 .fresh-badge strong { font-weight: 700; font-size: 14px; display: block; }
 .fresh-badge small  { color: var(--muted); font-size: 11px; }
 
-/* ===== SECTION COMMON ===== */
+/* SECTION COMMON */
 .section-wrapper {
   padding: 70px 5%;
   background: var(--bg);
@@ -417,7 +412,7 @@ nav {
   margin-top: 8px;
 }
 
-/* ===== MENU / FAVOURITE CARDS ===== */
+/* MENU / FAVOURITE CARDS */
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -532,7 +527,7 @@ nav {
 
 .btn-view-menu:hover { background: var(--orange); color: white; }
 
-/* ===== HOW IT WORKS ===== */
+/* HOW IT WORKS */
 .steps-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -571,7 +566,7 @@ nav {
   color: var(--muted);
 }
 
-/* ===== FOOTER ===== */
+/* FOOTER */
 footer {
   background: var(--footer-bg);
   color: #ccc;
@@ -653,7 +648,7 @@ footer {
   color: #666;
 }
 
-/* ===== RESPONSIVE ===== */
+/* RESPONSIVE */
 @media (max-width: 900px) {
   .hero         { flex-direction: column; padding: 40px 5%; }
   .hero-right   { max-width: 100%; width: 100%; }
