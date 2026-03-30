@@ -1,10 +1,4 @@
-/* =============================================
-   FreshFeast — Homepage Scripts
-   script.js
-   ============================================= */
-
-/* ----- Cart Counter ----- */
-
+//Cart Counter
 let cartCount = 0; // starting count shown on the badge
 
 const cartBadge = document.getElementById('cart-badge');
@@ -35,8 +29,7 @@ document.querySelectorAll('.btn-add').forEach(function(button) {
 });
 
 
-/* ----- "How It Works" smooth scroll ----- */
-
+//"How It Works" smooth scroll
 const howItWorksBtn = document.getElementById('how-it-works-btn');
 const howItWorksSection = document.getElementById('how-it-works');
 
@@ -47,8 +40,7 @@ if (howItWorksBtn && howItWorksSection) {
 }
 
 
-/* ----- "View Full Menu" button ----- */
-
+//"View Full Menu" button
 const viewMenuBtn = document.getElementById('view-menu-btn');
 
 if (viewMenuBtn) {
@@ -58,8 +50,7 @@ if (viewMenuBtn) {
 }
 
 
-/* ----- "Explore Menu" hero button ----- */
-
+//"Explore Menu" hero button
 const exploreMenuBtn = document.getElementById('explore-menu-btn');
 
 if (exploreMenuBtn) {
@@ -69,8 +60,7 @@ if (exploreMenuBtn) {
 }
 
 
-/* ----- Active nav link highlight -----*/
-
+//Active nav link highlight
 const currentPage = window.location.pathname.split('/').pop() || 'index.html';
 
 document.querySelectorAll('.nav-links a').forEach(function(link) {
